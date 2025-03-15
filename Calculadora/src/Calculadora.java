@@ -3,10 +3,6 @@ public final class Calculadora {
     /**
      * Soma dois números e retorna o resultado.
      * Este método recebe dois números, soma-os e retorna o valor resultante.
-     * Ele pode ser sobrescrito por subclasses, se necessário,
-     * para adaptar o comportamento
-     * de soma, mas deve garantir que a operação de soma
-     * seja realizada corretamente.
      * @param valor1 o primeiro número a ser somado
      * @param valor2 o segundo número a ser somado
      * @return a soma de valor1 e valor2
@@ -17,10 +13,8 @@ public final class Calculadora {
 
     /**
      * Subtrai o segundo número do primeiro e retorna o resultado.
-     *
      * Este método recebe dois números, subtrai o segundo número do primeiro
      * e retorna o resultado da operação.
-     *
      * @param valor1 o número de onde será subtraído
      * @param valor2 o número a ser subtraído
      * @return a diferença entre valor1 e valor2
